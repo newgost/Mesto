@@ -1,0 +1,19 @@
+.add-button {
+  min-width: 150px;
+  min-height: 50px;
+  background-image: url(../../images/add-button.svg);
+  background-size: cover;
+  background-position: center;
+  transition: linear .5s;
+}
+
+.add-button:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 710px) {
+  .add-button {
+    min-width: 282px;
+    background-image: url(../../images/add-button-mobile.svg);
+  }
+}

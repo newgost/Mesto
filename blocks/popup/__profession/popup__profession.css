@@ -1,0 +1,8 @@
+.popup__profession {
+  min-width: 358px;
+  min-height: 27px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}

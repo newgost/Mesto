@@ -1,0 +1,13 @@
+.footer__copuright {
+  margin: 0;
+  min-width: 318px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #545454;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__copuright {
+    padding-left: 19px;
+  }
+}

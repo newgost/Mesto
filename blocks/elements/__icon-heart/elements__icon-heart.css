@@ -1,0 +1,13 @@
+.elements__icon-heart {
+  min-width: 22px;
+  min-height: 19px;
+  background-image: url(../../../images/heart.svg);
+  background-size: cover;
+  background-position: center;
+  align-self: center;
+  transition: linear .5s;
+}
+
+.elements__icon-heart:hover {
+  opacity: 0.5;
+}

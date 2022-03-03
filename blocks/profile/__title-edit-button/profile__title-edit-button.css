@@ -1,0 +1,18 @@
+.profile__title-edit-button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+
+@media screen and (max-width: 710px) {
+  .profile__title-edit-button {
+    justify-content: space-between;
+    margin-top: 22.25px;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .profile__title-edit-button {
+    justify-content: center;
+  }
+}

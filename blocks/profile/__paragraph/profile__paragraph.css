@@ -1,0 +1,27 @@
+.profile__paragraph {
+  min-width: 336px;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  margin-top: 16px;
+  margin-bottom: 25px;
+  
+}
+
+@media screen and (max-width: 710px) {
+  .profile__paragraph {
+    text-align: center;
+    margin-top: 14px;
+  margin-bottom: 36px;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .profile__paragraph {
+    min-width: 282px;
+  }
+}
+
+
+
+

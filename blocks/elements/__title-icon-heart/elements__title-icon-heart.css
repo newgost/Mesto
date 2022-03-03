@@ -1,0 +1,8 @@
+.elements__title-icon-heart {
+  margin: auto;
+  max-width: 246px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 31px;
+}

@@ -1,0 +1,37 @@
+.icon-close {
+  min-width: 32px;
+  min-height: 32px;
+  position: absolute;
+  top: -40px;
+  right: -28px; 
+}
+
+.icon-close:hover {
+  opacity: 0.6;
+}
+
+.icon-close:before, .icon-close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #fff;
+}
+
+.icon-close:before {
+  transform: rotate(45deg);
+}
+
+.icon-close:after {
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 600px) {
+  .icon-close {
+    min-width: 20px;
+    min-height: 20px;
+    top: -45px;
+    right: 0;
+  }
+}
