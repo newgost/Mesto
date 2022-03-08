@@ -20,14 +20,14 @@
 	      	  	  <div class="profile__content">
 	      	  	  	  <img class="profile__image" src="images/Kusto.jpg" alt="Жак-Ив Кусто">
 	      	  	  	  <div class="profile__info">
-	      	  	  	  	  <div class="profile__title-edit-button">
+	      	  	  	  	  <div class="profile__flex-container">
 	      	  	  	  	  	  <h1 class="profile__title">Жак-Ив Кусто</h1>
-	      	  	  	          <div class="edit-button hover"></div>
+	      	  	  	          <button class="profile__edit-button button" type="button"></button>
 	      	  	  	      </div>
 	      	  	  	  <p class="profile__paragraph">Исследователь океана</p>
 	      	  	      </div>
 	      	  	  </div>
-	      	  	  <div class="add-button hover"></div>
+	      	  	  <button class="profile__add-button button" type="button"></button>
 	      	  </section>
 
 	      	  
@@ -35,51 +35,51 @@
 
 	      	  <section class="elements">
 	      	  	  <ul class="elements__grid">
-	      	  	  	  <li class="elements__list">
+	      	  	  	  <li class="elements__item">
 	      	  	  	  	  <img class="elements__image" src="images/Karachaevsk.jpg" alt="Карачаевск">
-	      	  	  	  	  <div class="elements__title-icon-heart">
+	      	  	  	  	  <div class="elements__container">
 	      	  	  	  	  	  <h2 class="elements__title">Карачаевск</h2>
-	      	  	  	  	      <div class="elements__icon-heart hover active"></div>
+	      	  	  	  	      <button class="elements__icon-heart button" type="button"></button>
 	      	  	  	  	  </div>
 	      	  	  	  </li>
 
-	      	  	  	  <li class="elements__list">
+	      	  	  	  <li class="elements__item">
 	      	  	  	  	  <img class="elements__image" src="images/Elbrus.jpg" alt="Карачаевск">
-	      	  	  	  	  <div class="elements__title-icon-heart">
+	      	  	  	  	  <div class="elements__container">
 	      	  	  	  	  	  <h2 class="elements__title">Гора Эльбрус</h2>
-	      	  	  	  	      <div class="elements__icon-heart hover active"></div>
+	      	  	  	  	      <button class="elements__icon-heart button" type="button"></button>
 	      	  	  	  	  </div>
 	      	  	  	  </li>
 
-	      	  	  	  <li class="elements__list">
+	      	  	  	  <li class="elements__item">
 	      	  	  	  	  <img class="elements__image" src="images/Dombai.jpg" alt="Карачаевск">
-	      	  	  	  	  <div class="elements__title-icon-heart">
+	      	  	  	  	  <div class="elements__container">
 	      	  	  	  	  	  <h2 class="elements__title">Домбай</h2>
-	      	  	  	  	      <div class="elements__icon-heart hover active"></div>
+	      	  	  	  	      <button class="elements__icon-heart button" type="button"></button>
 	      	  	  	  	  </div>
 	      	  	  	  </li>
 
-	      	  	  	  <li class="elements__list">
+	      	  	  	  <li class="elements__item">
 	      	  	  	  	  <img class="elements__image" src="images/Elbrus.jpg" alt="Карачаевск">
-	      	  	  	  	  <div class="elements__title-icon-heart">
+	      	  	  	  	  <div class="elements__container">
 	      	  	  	  	  	  <h2 class="elements__title">Гора Эльбрус</h2>
-	      	  	  	  	      <div class="elements__icon-heart hover active"></div>
+	      	  	  	  	      <button class="elements__icon-heart button" type="button"></button>
 	      	  	  	  	  </div>
 	      	  	  	  </li>
 
-	      	  	  	  <li class="elements__list">
+	      	  	  	  <li class="elements__item">
 	      	  	  	  	  <img class="elements__image" src="images/Dombai.jpg" alt="Карачаевск">
-	      	  	  	  	  <div class="elements__title-icon-heart">
+	      	  	  	  	  <div class="elements__container">
 	      	  	  	  	  	  <h2 class="elements__title">Домбай</h2>
-	      	  	  	  	      <div class="elements__icon-heart hover active"></div>
+	      	  	  	  	      <button class="elements__icon-heart button" type="button"></button>
 	      	  	  	  	  </div>
 	      	  	  	  </li>
 
-	      	  	  	  <li class="elements__list">
+	      	  	  	  <li class="elements__item">
 	      	  	  	  	  <img class="elements__image" src="images/Karachaevsk.jpg" alt="Карачаево-Черкессия">
-	      	  	  	  	  <div class="elements__title-icon-heart">
+	      	  	  	  	  <div class="elements__container">
 	      	  	  	  	  	  <h2 class="elements__title overflow">Карачаево-Черкессия</h2>
-	      	  	  	  	      <div class="elements__icon-heart hover active"></div>
+	      	  	  	  	      <button class="elements__icon-heart button" type="button"></button>
 	      	  	  	  	  </div>
 	      	  	  	  </li>
 	      	  	  </ul>
@@ -90,20 +90,22 @@
 <!-- FOOTER -->
 
 	      <footer class="footer">
-	      	  <p class="footer__copuright">&copy; 2022 Mesto Russia</p>
+	      	  <p class="footer__copyright">&copy; 2022 Mesto Russia</p>
 	      </footer>
 
 
 <!-- ДИАЛОГОВОЕ ОКНО -->
           <div class="popup">
-          	  <div class="popup__container">
+          	  <div class="popup__content">
           	  	  <div class="popup__flex-container">
           	  	  	  <h2 class="popup__title">Редактировать профиль</h2>
-                      <input type="text" name="name" placeholder="Жак-Ив Кусто" value="" class="popup__name">
-          	  	      <input type="text" name="profession" placeholder="Исследователь океана" value="" class="popup__profession">
-          	  	      <button class="popup__button hover">Сохранить</button>
+                      <form class="popup__form">
+                      	  <input type="text" name="name" placeholder="Жак-Ив Кусто" value="Жак-Ив Кусто" class="popup__form-elements popup__form-elements_type_input-name">
+          	  	          <input type="text" name="profession" placeholder="Исследователь океана" value="Исследователь океана" class="popup__form-elements popup__form-elements_type_input-profession">
+          	  	          <button class="popup__button" type="submit">Сохранить</button>
+          	  	      </form>
           	      </div>
-          	      <a href="#" class="icon-close"></a>
+          	      <a href="#" class="popup__icon-close"></a>
               </div>
           </div>
 

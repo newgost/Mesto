@@ -1,4 +1,4 @@
-.icon-close {
+.popup__icon-close {
   min-width: 32px;
   min-height: 32px;
   position: absolute;
@@ -6,11 +6,11 @@
   right: -28px; 
 }
 
-.icon-close:hover {
+.popup__icon-close:hover {
   opacity: 0.6;
 }
 
-.icon-close:before, .icon-close:after {
+.popup__icon-close:before, .popup__icon-close:after {
   position: absolute;
   left: 15px;
   content: ' ';
@@ -19,18 +19,16 @@
   background-color: #fff;
 }
 
-.icon-close:before {
+.popup__icon-close:before {
   transform: rotate(45deg);
 }
 
-.icon-close:after {
+.popup__icon-close:after {
   transform: rotate(-45deg);
 }
 
 @media screen and (max-width: 600px) {
-  .icon-close {
-    min-width: 20px;
-    min-height: 20px;
+  .popup__icon-close {
     top: -45px;
     right: 0;
   }

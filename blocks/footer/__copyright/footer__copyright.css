@@ -1,4 +1,4 @@
-.footer__copuright {
+.footer__copyright {
   margin: 0;
   min-width: 318px;
   font-size: 18px;
@@ -7,7 +7,8 @@
 }
 
 @media screen and (max-width: 900px) {
-  .footer__copuright {
+  .footer__copyright {
     padding-left: 19px;
+    box-sizing: border-box;
   }
 }

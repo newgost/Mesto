@@ -1,6 +1,6 @@
 .popup__flex-container {
   margin: 0 auto;
-  max-width: 358px;
+  min-width: 358px;
   display: flex;
   flex-direction: column;
   font-weight: normal;

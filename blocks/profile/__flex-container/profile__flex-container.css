@@ -1,18 +1,19 @@
-.profile__title-edit-button {
+.profile__flex-container {
   display: flex;
   justify-content: space-between;
   margin-top: 22px;
+  align-items: center;
 }
 
 @media screen and (max-width: 710px) {
-  .profile__title-edit-button {
+  .profile__flex-container {
     justify-content: space-between;
     margin-top: 22.25px;
   }
 }
 
 @media screen and (max-width: 388px) {
-  .profile__title-edit-button {
+  .profile__flex-container {
     justify-content: center;
   }
 }
