@@ -8,4 +8,4 @@
 * CSS3 - каскадные таблицы стилей.
 * JS - язык программирования javaScript.
 
-### [Ссылка на GitHub Pages](https://newgost.github.io/Mesto/)
+### [Ссылка на GitHub Pages](https://newgost.github.io/mesto/)
